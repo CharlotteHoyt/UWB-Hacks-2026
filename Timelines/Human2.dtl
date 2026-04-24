@@ -1,4 +1,4 @@
-join Person3 center [animation="Zoom In"]
+join Person3 center
 Person3: Hello
 - Question1
 	Person3: Answer1
@@ -10,6 +10,13 @@ You: Are they AI or Human?
 - Human
 	set {Amt_Correct} += 1.0
 - AI
-	set {Amt_Correct} += -1.0
-leave Person3 [animation="Zoom In"]
+leave Person3
 You: Thats all of them
+if {Amt_Correct} == 1.0:
+	You: I think I got one Right!!
+elif {Amt_Correct} == 2.0:
+	You: I think I got two Right!!
+elif {Amt_Correct} < 2.0:
+	You: I think I got all Right!!
+else:
+	You: I got none right \:(

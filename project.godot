@@ -32,8 +32,8 @@ directories/dtl_directory={
 "Human2": "res://Timelines/Human2.dtl"
 }
 layout/style_directory={
-"": "res://Assets/style2.tres",
-"style2": "res://Assets/style2.tres"
+"": "res://Assets/style.tres",
+"style": "res://Assets/style.tres"
 }
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
@@ -68,8 +68,8 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
-layout/style_list=["res://Assets/style2.tres"]
-layout/default_style="res://Assets/style2.tres"
+layout/style_list=["res://Assets/style.tres"]
+layout/default_style="res://Assets/style.tres"
 variables={
 "Amt_Correct": 0
 }

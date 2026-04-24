@@ -1,4 +1,4 @@
-join Person1 center [animation="Zoom In"]
+join Person1 center
 Person1: Hello
 - Question1
 	Person1: Answer1
@@ -10,7 +10,6 @@ You: Are they AI or Human?
 - Human
 	set {Amt_Correct} += 1.0
 - AI
-	set {Amt_Correct} += -1.0
-leave Person1 [animation="Zoom In"]
+leave Person1
 jump AI/
 You: NEXT!
