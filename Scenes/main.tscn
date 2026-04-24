@@ -1,7 +1,7 @@
-[gd_scene format=3 uid="uid://d4bgfceoj0u82"]
+[gd_scene format=3 uid="uid://7jtni5g7binv"]
 
-[ext_resource type="PackedScene" uid="uid://cbey6a6w05rhr" path="res://Scenes/person.tscn" id="1_bo1nx"]
-[ext_resource type="Resource" uid="uid://682n4j0bt7nh" path="res://Timelines/Human.dtl" id="2_8gbba"]
+[ext_resource type="PackedScene" path="res://Scenes/person.tscn" id="1_bo1nx"]
+[ext_resource type="Resource" path="res://Timelines/Human.dtl" id="2_8gbba"]
 
 [node name="Main" type="Control" unique_id=1181917434]
 layout_mode = 3
