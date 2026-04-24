@@ -1,0 +1,16 @@
+join Person1 center [animation="Zoom In"]
+Person1: Hello
+- Question1
+	Person1: Answer1
+- Question2
+	Person1: Answer2
+- Question3
+	Person1: Answer3
+You: Are they AI or Human?
+- Human
+	set {Amt_Correct} += 1.0
+- AI
+	set {Amt_Correct} += -1.0
+leave Person1 [animation="Zoom In"]
+jump AI/
+You: NEXT!
