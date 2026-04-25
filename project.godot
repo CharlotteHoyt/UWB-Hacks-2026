@@ -31,7 +31,7 @@ directories/dtl_directory={
 "AI": "res://Timelines/AI.dtl",
 "Beginning": "res://Timelines/Beginning.dtl",
 "Human": "res://Timelines/Human.dtl",
-"Human2": "res://Timelines/Human2.dtl"
+"LastHuman": "res://Timelines/LastHuman.dtl"
 }
 layout/style_directory={
 "": "res://Assets/style2.tres",
