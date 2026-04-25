@@ -27,4 +27,6 @@ leave LastPerson
 Narrator: Your shift is over! You let {Humans} humans and {AIs} bots onto the spaceship.
 if {AIs} > 0.0:
 	Narrator: By letting on a bot, you have taken away a spot on the spaceship from a human.
+set {AIs} = 0
+set {Humans} = 0
 [signal arg="Finished"]
