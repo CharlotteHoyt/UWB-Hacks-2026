@@ -1,0 +1,66 @@
+[gd_scene format=3 uid="uid://cr4ls0dmrmii6"]
+
+[ext_resource type="Script" uid="uid://dq2lppapt0mvb" path="res://Scenes/launch.gd" id="1_y0xra"]
+[ext_resource type="Texture2D" uid="uid://r1rc1ujfe0l8" path="res://Assets/desertBackground2.png" id="2_ctbe1"]
+[ext_resource type="Texture2D" uid="uid://dg0cvjok3hdxu" path="res://Assets/rocketspritesheet.png" id="3_404yk"]
+[ext_resource type="Texture2D" uid="uid://b0oqyqjjntlhj" path="res://Assets/rocketstationary.png" id="4_8cm1k"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_21xkr"]
+atlas = ExtResource("3_404yk")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6bp64"]
+atlas = ExtResource("3_404yk")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_344ge"]
+atlas = ExtResource("3_404yk")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ynf5e"]
+atlas = ExtResource("3_404yk")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bodta"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_21xkr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6bp64")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_344ge")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ynf5e")
+}],
+"loop": false,
+"name": &"smoke",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_8cm1k")
+}],
+"loop": true,
+"name": &"still",
+"speed": 5.0
+}]
+
+[node name="Launch" type="Node2D" unique_id=149208211]
+script = ExtResource("1_y0xra")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=781507124]
+texture_filter = 1
+offset_right = 1152.0
+offset_bottom = 648.0
+texture = ExtResource("2_ctbe1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1211560800]
+texture_filter = 1
+position = Vector2(256, 327)
+scale = Vector2(6, 6)
+sprite_frames = SubResource("SpriteFrames_bodta")
+animation = &"smoke"
