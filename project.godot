@@ -14,6 +14,7 @@ config/name="UWB-Hacks-2026"
 run/main_scene="uid://7jtni5g7binv"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+<<<<<<<HEADrun/main_scene="uid://7jtni5g7binv"
 
 [autoload]
 
