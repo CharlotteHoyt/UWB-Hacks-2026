@@ -26,4 +26,4 @@ Narrator: Will you admit this candidate onto the spaceship?
 - No
 leave AI1
 You: Next in line.
-jump LastHuman/
+jump AI2/

@@ -24,18 +24,18 @@ Dialogic="*uid://ds2q0uclmolvu"
 
 directories/dch_directory={
 "AI1": "res://Characters/AI1.dch",
+"AI2": "res://Characters/AI2.dch",
 "LastPerson": "res://Characters/LastPerson.dch",
 "Narrator": "res://Assets/Narrator.dch",
 "Person1": "res://Characters/Person1.dch",
 "Person2": "res://Characters/Person2.dch",
-"Person3": "res://Characters/Person3.dch",
 "You": "res://You.dch"
 }
 directories/dtl_directory={
-"AI": "res://Timelines/AI.dtl",
+"AI1": "res://Timelines/AI1.dtl",
 "AI2": "res://Timelines/AI2.dtl",
 "Beginning": "res://Timelines/Beginning.dtl",
-"Human": "res://Timelines/Human.dtl",
+"Human1": "res://Timelines/Human1.dtl",
 "Human2": "res://Timelines/Human2.dtl",
 "LastHuman": "res://Timelines/LastHuman.dtl",
 "default_timeline": "res://Timelines/default_timeline.dtl"
@@ -81,7 +81,8 @@ layout/style_list=["res://Assets/style2.tres"]
 layout/default_style="res://Assets/style2.tres"
 variables={
 "AIs": 0,
-"Humans": 0
+"Humans": 0,
+"Name": ""
 }
 glossary/default_case_sensitive=true
 

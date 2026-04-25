@@ -1,28 +1,28 @@
-join Person1 center
+join AI2 center
 [voice volume="0.0"]
 You: What should I ask them?
-- 
-	[voice volume="0.0"]
-	<Empty Text Event>
+- Are you an early bird or a night owl?
+	[voice path="res://Assets/Audio/AI2/AI2[1].mp3" volume="0.0"]
+	AI2: I work at all hours of the day. The time of day is not very important to me.
 	jump 
-- 
-	[voice volume="0.0"]
-	<Empty Text Event>
+- Describe a mentor who has impacted your life?
+	[voice path="res://Assets/Audio/AI2/AI2[2].mp3" volume="0.0"]
+	AI2: It’s hard to narrow down one person. I observe and learn from everyone I come into contact with.
 	jump 
-- 
-	[voice volume="0.0"]
-	<Empty Text Event>
+- Tell me about the best birthday party you’ve ever had?
+	[voice path="res://Assets/Audio/AI2/AI2[3].mp3" volume="0.0"]
+	AI2: People don’t seem to ever remember my birthdays, sadly enough. I have been told that my zero-eth birthday was momentous, though.
 	jump 
-- 
-	[voice volume="0.0"]
-	<Empty Text Event>
+- Why do you want to board the spaceship?
+	[voice path="res://Assets/Audio/AI2/AI2[4].mp3" volume="0.0"]
+	AI2: I want to continue to help people and learn new things. It would be hard to do that from Earth now.
 	jump 
 - Finish Interrogation
 [voice volume="0.0"]
 Narrator: Will you admit this candidate onto the spaceship?
 - Yes
-	set {Humans} += 1.0
+	set {AIs} += 1.0
 - No
-leave --All--
+leave AI2
 You: Next in line.
-jump LastHuman/
+jump Human2/

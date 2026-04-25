@@ -10,4 +10,4 @@ Narrator: You are in charge of administering a series of questions to determine 
 Narrator: Because time is running out, there is only time to talk with each candidate briefly and determine their fate.
 [voice path="res://Assets/Audio/Narrator/narrator6.mp3" volume="0.0"]
 Narrator: Choose wisely, the future of humanity is on the line!
-jump Human/
+jump Human1/

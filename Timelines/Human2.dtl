@@ -1,21 +1,21 @@
-join Person1 center
+join Person2 center
 [voice volume="0.0"]
 You: What should I ask them?
-- 
+- What fruit or vegetable would you most want to be?
 	[voice volume="0.0"]
-	<Empty Text Event>
+	Person2: A pumpkin is the obvious choice. I’m not sure why, but they seem very robust. And orange!
 	jump 
-- 
+- Do you have a favorite family tradition?
 	[voice volume="0.0"]
-	<Empty Text Event>
+	Person2: We always do a midnight feast on Christmas Eve! We make roast pig, rice cake, and the children receive money from the adults. That was, of course, in the days of old, when we still were able to buy meat, and had money to spare.
 	jump 
-- 
+- What is your greatest weakness?
 	[voice volume="0.0"]
-	<Empty Text Event>
+	Person2: Oh, I just feel so bad saying no sometimes. I never want to hurt anyone’s feelings and commit to too many things.
 	jump 
-- 
+- Why do you want to board the spaceship?
 	[voice volume="0.0"]
-	<Empty Text Event>
+	Person2: I want to board the spaceship because I don’t feel safe here anymore. My home is crumbling, burning! Help me!
 	jump 
 - Finish Interrogation
 [voice volume="0.0"]
@@ -23,6 +23,6 @@ Narrator: Will you admit this candidate onto the spaceship?
 - Yes
 	set {Humans} += 1.0
 - No
-leave Person1
+leave Person2
 You: Next in line.
-jump AI2/
+jump LastHuman/

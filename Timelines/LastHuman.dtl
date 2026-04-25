@@ -25,5 +25,5 @@ Narrator: Will you admit this candidate onto the spaceship?
 - No
 leave LastPerson
 Narrator: Your shift is over!
-LastPerson: You let {Humans} humans and {AIs} bots onto the spaceship.
+Narrator: You let {Humans} humans and {AIs} bots onto the spaceship.
 [signal arg="Finished"]

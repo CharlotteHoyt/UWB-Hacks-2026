@@ -21,8 +21,8 @@ You: What should I ask them?
 [voice volume="0.0"]
 Narrator: Will you admit this candidate onto the spaceship?
 - Yes
-	set {Amt_Correct} += 1.0
+	set {Humans} += 1.0
 - No
 leave Person1
 You: Next in line.
-jump AI/
+jump AI1/
