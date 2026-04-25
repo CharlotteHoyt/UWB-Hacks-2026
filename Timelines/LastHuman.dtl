@@ -21,16 +21,10 @@ LastPerson: What should I ask them?
 [voice volume="0.0"]
 You: Will you admit this candidate onto the spaceship?
 - Yes
-	set {Amt_Correct} += 1.0
+	set {Humans} += 1.0
 - No
 leave LastPerson
 You: That's all of them
-if {Amt_Correct} == 1.0:
-	You: I think I got one Right!!
-elif {Amt_Correct} == 2.0:
-	You: I think I got two Right!!
-elif {Amt_Correct} > 2.0:
-	You: I think I got all Right!!
-else:
-	You: I got none right \:(
+You: I think I let {Humans} Humans into the ship
+You: I think I let {AIs} AIs into the ship
 [signal arg="Finished"]
