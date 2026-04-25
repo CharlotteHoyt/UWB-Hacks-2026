@@ -9,6 +9,9 @@ Person1: What should I ask them?
 - If you could change one thing about the world, what would it be?
 	Person1: Well, right now, humanity is going through a hard situation. I wish we would all treat each other with kindness and I hope my family can stay together.
 	jump 
+- Why do you want to board the spaceship?
+	Person1: I don’t want to board the spaceship, I need to! My life is just getting started - I have so many unfulfilled dreams and such a bright future.
+	jump 
 - Finish Interrogation
 You: Will you admit this candidate onto the spaceship?
 - Yes

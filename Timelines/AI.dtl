@@ -11,6 +11,9 @@ Person2: What should I ask them?
 - What job would you be terrible at?
 	Person2: I would make a bad plumber or hair stylist. I’m also not good at dealing with people. Too many emotions.
 	jump 
+- Why do you want to board the spaceship?
+	Person2: If I am let onto the spaceship, I can fix all of humanity’s problems. If everyone was more like me and looked at everything empirically, we would not have gotten to this point.
+	jump 
 - Finish Interrogation
 You: Will you admit this candidate onto the spaceship?
 - Yes
