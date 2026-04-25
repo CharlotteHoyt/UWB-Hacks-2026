@@ -1,0 +1,26 @@
+join Person3 center
+Person3: What should I ask them?
+- What’s the story behind your phone wallpaper?
+	Person3: My phone wallpaper? Oh, uh… it’s from a family vacation, before this catastrophic end of the world, that is.
+	jump 
+- What’s something the person you’re in line with doesn’t know about you?
+	Person3: Not a death bed confession! Certainly we should have more positivity than that. But, if I must… I ate the last slice of cake. Yes, it was me… I’m sorry!
+	jump 
+- What’s a current trend you just don’t get?
+	Person3: I don’t get why people are so obsessed with bringing back hand held cell phones! The brain chip implants are so much more convenient. Who wants to carry around a brick from the past?
+	jump 
+- Finish Interrogation
+You: Will you admit this candidate onto the spaceship?
+- Yes
+	set {Amt_Correct} += 1.0
+- No
+leave Person3
+You: That's all of them
+if {Amt_Correct} == 1.0:
+	You: I think I got one Right!!
+elif {Amt_Correct} == 2.0:
+	You: I think I got two Right!!
+elif {Amt_Correct} > 2.0:
+	You: I think I got all Right!!
+else:
+	You: I got none right \:(

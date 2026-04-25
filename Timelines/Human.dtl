@@ -1,0 +1,19 @@
+join Person1 center
+Person1: What should I ask them?
+- What is the best ice cream flavor?
+	Person1: Strawberry! Specifically from this one ice cream shop at the beach.
+	jump 
+- Tell me about your best friend.
+	Person1: Isaac! We go to school together, he studies electrical engineering. He works as a barista at a bakery and he’s really tall but super bad at basketball.
+	jump 
+- If you could change one thing about the world, what would it be?
+	Person1: Well, right now, humanity is going through a hard situation. I wish we would all treat each other with kindness and I hope my family can stay together.
+	jump 
+- Finish Interrogation
+You: Will you admit this candidate onto the spaceship?
+- Yes
+	set {Amt_Correct} += 1.0
+- No
+leave Person1
+jump AI/
+You: Next in Line
