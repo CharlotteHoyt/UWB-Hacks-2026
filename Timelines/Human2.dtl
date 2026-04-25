@@ -9,6 +9,9 @@ Person3: What should I ask them?
 - What’s a current trend you just don’t get?
 	Person3: I don’t get why people are so obsessed with bringing back hand held cell phones! The brain chip implants are so much more convenient. Who wants to carry around a brick from the past?
 	jump 
+- Why do you want to board the spaceship?
+	Person2: Honestly man… I just really want to make a nice sandwich…. take a nap without worrying about burning up in my home… sob… sorry it’s been a long couple of years.
+	jump 
 - Finish Interrogation
 You: Will you admit this candidate onto the spaceship?
 - Yes
