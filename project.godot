@@ -28,7 +28,8 @@ directories/dch_directory={
 "Narrator": "res://Assets/Narrator.dch",
 "Person1": "res://Characters/Person1.dch",
 "Person2": "res://Characters/Person2.dch",
-"Person3": "res://Characters/Person3.dch"
+"Person3": "res://Characters/Person3.dch",
+"You": "res://You.dch"
 }
 directories/dtl_directory={
 "AI": "res://Timelines/AI.dtl",

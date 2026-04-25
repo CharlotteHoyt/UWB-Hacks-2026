@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://7jtni5g7binv"]
 
 [ext_resource type="PackedScene" uid="uid://cbey6a6w05rhr" path="res://Scenes/person.tscn" id="1_bo1nx"]
-[ext_resource type="Script" uid="uid://jsaxy7kk3a5r" path="res://Scripts/main.gd" id="1_jjvhh"]
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_jjvhh"]
 [ext_resource type="Resource" uid="uid://eyii8bc0xplh" path="res://Timelines/Beginning.dtl" id="2_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://cqx2f7c7t2si8" path="res://Assets/desertbackground.png" id="3_8gbba"]
 
