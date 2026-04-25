@@ -11,10 +11,10 @@ config_version=5
 [application]
 
 config/name="UWB-Hacks-2026"
-run/main_scene="uid://d4bgfceoj0u82"
+run/main_scene="uid://7jtni5g7binv"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
-run/main_scene="uid://7jtni5g7binv"
+<<<<<<<HEADrun/main_scene="uid://7jtni5g7binv"
 
 [autoload]
 
