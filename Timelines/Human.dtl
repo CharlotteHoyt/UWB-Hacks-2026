@@ -24,5 +24,5 @@ You: Will you admit this candidate onto the spaceship?
 	set {Amt_Correct} += 1.0
 - No
 leave Person1
+You: Next in line.
 jump AI/
-You: Next in Line
