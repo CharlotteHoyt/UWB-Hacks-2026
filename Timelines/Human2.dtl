@@ -1,21 +1,21 @@
-join Person3 center
+join LastPerson center
 [voice volume="0.0"]
-Person3: What should I ask them?
+LastPerson: What should I ask them?
 - What’s the story behind your tattoo?
-	[voice path="res://Assets/Audio/Person2/Person2[1].mp3" volume="0.0"]
-	Person3: My tattoo? Oh, uh… it’s from a family vacation, before this catastrophic end of the world, that is.
+	[voice path="res://Assets/Audio/LastPerson/last_person[1].mp3" volume="0.0"]
+	LastPerson: My tattoo? Oh, uh… it’s from a family vacation, before this catastrophic end of the world, that is.
 	jump 
 - What’s something the person you’re in line with doesn’t know about you?
-	[voice path="res://Assets/Audio/Person2/Person2[2].mp3" volume="0.0"]
-	Person3: Not a death bed confession! Certainly we should have more positivity than that. But, if I must… I ate the last slice of cake. Yes, it was me… I’m sorry!
+	[voice path="res://Assets/Audio/LastPerson/last_person[2].mp3" volume="0.0"]
+	LastPerson: Not a death bed confession! Certainly we should have more positivity than that. But, if I must… I ate the last slice of cake. Yes, it was me… I’m sorry!
 	jump 
 - What’s a current trend you just don’t get?
-	[voice path="res://Assets/Audio/Person2/Person2[3].mp3" volume="0.0"]
-	Person3: I don’t get why people are so obsessed with bringing back hand held cell phones! The brain chip implants are so much more convenient. Who wants to carry around a brick from the past?
+	[voice path="res://Assets/Audio/LastPerson/last_person[3].mp3" volume="0.0"]
+	LastPerson: I don’t get why people are so obsessed with bringing back hand held cell phones! The brain chip implants are so much more convenient. Who wants to carry around a brick from the past?
 	jump 
 - Why do you want to board the spaceship?
-	[voice path="res://Assets/Audio/Person2/Person2[4].mp3" volume="0.0"]
-	Person3: Honestly man... I just really want to make a nice sandwich... take a nap without worrying about burning up in my home… sorry it’s been a long couple of years.
+	[voice path="res://Assets/Audio/LastPerson/last_person[4].mp3" volume="0.0"]
+	LastPerson: Honestly man… I just really want to make a nice sandwich…. take a nap without worrying about burning up in my home … sorry it’s been a long couple of years.
 	jump 
 - Finish Interrogation
 [voice volume="0.0"]
@@ -23,13 +23,14 @@ You: Will you admit this candidate onto the spaceship?
 - Yes
 	set {Amt_Correct} += 1.0
 - No
-leave Person3
-You: That's all of them!
+leave LastPerson
+You: That's all of them
 if {Amt_Correct} == 1.0:
-	You: You admitted one person correctly!
+	You: I think I got one Right!!
 elif {Amt_Correct} == 2.0:
-	You: You admitted two people correctly!
+	You: I think I got two Right!!
 elif {Amt_Correct} > 2.0:
-	You: You admitted everyone correctly!
+	You: I think I got all Right!!
 else:
-	You: You admitted no one correctly!
+	You: I got none right \:(
+[signal arg="Finished"]
