@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://7jtni5g7binv"]
+[gd_scene format=3 uid="uid://clsfrmxyq7mw0"]
 
-[ext_resource type="PackedScene" uid="uid://cbey6a6w05rhr" path="res://Scenes/person.tscn" id="1_bo1nx"]
+[ext_resource type="PackedScene" path="res://Scenes/person.tscn" id="1_bo1nx"]
 [ext_resource type="Resource" uid="uid://eyii8bc0xplh" path="res://Timelines/Beginning.dtl" id="2_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://cqx2f7c7t2si8" path="res://Assets/desertbackground.png" id="3_8gbba"]
 
@@ -17,6 +17,7 @@ layout_mode = 1
 dt = ExtResource("2_bo1nx")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1881150850]
+texture_filter = 1
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
