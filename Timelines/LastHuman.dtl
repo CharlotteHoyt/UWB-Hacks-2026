@@ -24,6 +24,7 @@ Narrator: Will you admit this candidate onto the spaceship?
 	set {Humans} += 1.0
 - No
 leave LastPerson
-Narrator: Your shift is over!
-Narrator: You let {Humans} humans and {AIs} bots onto the spaceship.
+Narrator: Your shift is over! You let {Humans} humans and {AIs} bots onto the spaceship.
+if {AIs} > 0.0:
+	Narrator: By letting on a bot, you have taken away a spot on the spaceship from a human.
 [signal arg="Finished"]
