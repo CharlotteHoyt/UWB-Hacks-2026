@@ -32,6 +32,7 @@ directories/dch_directory={
 "You": "res://You.dch"
 }
 directories/dtl_directory={
+"AI": "res://Timelines/AI.dtl",
 "AI1": "res://Timelines/AI1.dtl",
 "AI2": "res://Timelines/AI2.dtl",
 "Beginning": "res://Timelines/Beginning.dtl",

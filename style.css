@@ -1,1 +1,8 @@
+* {
+    margin: 0;
+}
 
+body, html {
+    background-color: #FFFFFF;
+    overflow-x: hidden
+}
