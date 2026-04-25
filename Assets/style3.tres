@@ -27,7 +27,7 @@ scene = ExtResource("4_ebqr1")
 script = ExtResource("2_nu84a")
 scene = ExtResource("5_3nxwb")
 overrides = {
-"box_size": "Vector2(800, 200)"
+"box_size": "Vector2(900, 200)"
 }
 
 [sub_resource type="Resource" id="Resource_w8nqr"]
