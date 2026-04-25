@@ -22,8 +22,8 @@ AI1: What should I ask them?
 - Finish Interrogation
 You: Will you admit this candidate onto the spaceship?
 - Yes
+	set {AIs} += 1.0
 - No
-	set {Amt_Correct} += 1.0
 leave AI1
 You: Next in line.
 jump LastHuman/

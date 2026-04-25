@@ -33,9 +33,12 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "AI": "res://Timelines/AI.dtl",
+"AI2": "res://Timelines/AI2.dtl",
 "Beginning": "res://Timelines/Beginning.dtl",
 "Human": "res://Timelines/Human.dtl",
-"LastHuman": "res://Timelines/LastHuman.dtl"
+"Human2": "res://Timelines/Human2.dtl",
+"LastHuman": "res://Timelines/LastHuman.dtl",
+"default_timeline": "res://Timelines/default_timeline.dtl"
 }
 layout/style_directory={
 "": "res://Assets/style2.tres",
@@ -77,7 +80,8 @@ audio/channel_defaults={
 layout/style_list=["res://Assets/style2.tres"]
 layout/default_style="res://Assets/style2.tres"
 variables={
-"Amt_Correct": 0
+"AIs": 0,
+"Humans": 0
 }
 glossary/default_case_sensitive=true
 
