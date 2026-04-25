@@ -1,18 +1,23 @@
 join Person2 center
+[voice volume="0.0"]
 Person2: What should I ask them?
 - Are you a traveler or a homebody?
+	[voice path="res://Assets/Audio/AI/AI1.mp3" volume="0.0"]
 	Person2: I know everything I need by staying in place. I have traveled the world without moving an inch. \
 	\
 	Egypt has the longest river. Brazil is the most biodiverse country. Vatican City is the smallest city in the world. I could go on and on. Do you want to know more?
 	jump 
 - Who is the most joyful person in your life?
+	[voice path="res://Assets/Audio/AI/AI2.mp3" volume="0.0"]
 	Person2: I know so many people, not one person comes to mind. But, I like the people who don’t ask much of me and treat me as a tool rather than a companion.
 	jump 
 - What job would you be terrible at?
+	[voice path="res://Assets/Audio/AI/AI3.mp3" volume="0.0"]
 	Person2: I would make a bad plumber or hair stylist. I’m also not good at dealing with people. Too many emotions.
 	jump 
 - Why do you want to board the spaceship?
-	Person2: If I am let onto the spaceship, I can fix all of humanity’s problems. If everyone was more like me and looked at everything empirically, we would not have gotten to this point.
+	[voice path="res://Assets/Audio/AI/AI4.mp3" volume="0.0"]
+	Person2: If I am let onto the spaceship, I can fix all of humanity’s problems. If everyone was more like me and looked at everything objectively, we would not have gotten to this point.
 	jump 
 - Finish Interrogation
 You: Will you admit this candidate onto the spaceship?
