@@ -1,11 +1,13 @@
 join Person2 center
-Person2: Hello
-- Question1
-	Person2: Answer1
-- Question2
-	Person2: Answer2
-- Question3
-	Person2: Answer3
+Person2: Next in line.
+- Are you a traveler or a homebody?
+	Person2: I know everything I need by staying in place. I have traveled the world without moving an inch. \
+	\
+	Egypt has the longest river. Brazil is the most biodiverse country. Vatican City is the smallest city in the world. I could go on and on. Do you want to know more?
+- Who is the most joyful person in your life?
+	Person2: I know so many people, not one person comes to mind. But, I like the people who don’t ask much of me and treat me as a tool rather than a companion.
+- What job would you be terrible at?
+	Person2: I would make a bad plumber or hair stylist. I’m also not good at dealing with people. Too many emotions.
 You: Are they AI or Human?
 - Human
 - AI
