@@ -1,15 +1,19 @@
 join Person2 center
-Person2: Hello
+Person2: What should I ask them?
 - Question1
 	Person2: Answer1
+	jump 
 - Question2
 	Person2: Answer2
+	jump 
 - Question3
 	Person2: Answer3
+	jump 
+- Finish Interrogation
 You: Are they AI or Human?
 - Human
 - AI
 	set {Amt_Correct} += 1.0
 leave Person2
-You: NEXT!
+You: Next in Line
 jump Human2/
