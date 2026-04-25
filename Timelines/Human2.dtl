@@ -1,11 +1,11 @@
 join Person3 center
-Person3: Hello
-- Question1
-	Person3: Answer1
-- Question2
-	Person3: Answer2
-- Question3
-	Person3: Answer3
+Person3: Next in line.
+- What’s the story behind your phone wallpaper?
+	Person3: My phone wallpaper? Oh, uh… it’s from a family vacation, before this catastrophic end of the world, that is.
+- What’s something the person you’re in line with doesn’t know about you?
+	Person3: Not a death bed confession! Certainly we should have more positivity than that. But, if I must… I ate the last slice of cake. Yes, it was me… I’m sorry!
+- What’s a current trend you just don’t get?
+	Person3: I don’t get why people are so obsessed with bringing back hand held cell phones! The brain chip implants are so much more convenient. Who wants to carry around a brick from the past?
 You: Are they AI or Human?
 - Human
 	set {Amt_Correct} += 1.0

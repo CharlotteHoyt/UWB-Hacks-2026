@@ -8,9 +8,9 @@ Person2: Next in line.
 	Person2: I know so many people, not one person comes to mind. But, I like the people who don’t ask much of me and treat me as a tool rather than a companion.
 - What job would you be terrible at?
 	Person2: I would make a bad plumber or hair stylist. I’m also not good at dealing with people. Too many emotions.
-You: Are they AI or Human?
-- Human
-- AI
+You: Will you admit this candidate onto the spaceship?
+- Yes
+- No
 	set {Amt_Correct} += 1.0
 leave Person2
 You: NEXT!
