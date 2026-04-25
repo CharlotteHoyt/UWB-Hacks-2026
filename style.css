@@ -3,20 +3,27 @@
 }
 
 body, html {
-    background-color: #FFFFFF;
-    overflow-x: hidden
+    background-color: #FDFAE7;
+    overflow-x: hidden;
+    background-image: url("rockets.png");
+    background-repeat: repeat;
+    background-size: 250px;
 }
 
 h1 {
     font-family: "Jersey 10", sans-serif;
     font-size: 80px;
     text-align: center;
+    color: #000000;
+    text-shadow: 0 0 10px #FDFAE7;
 }
 
 p {
     font-family: "Jersey 10", sans-serif;
     font-size: 30px;
     text-align: center;
+    color: #000000;
+    text-shadow: 0 0 10px #FDFAE7;
 }
 
 embed {
@@ -24,4 +31,5 @@ embed {
     margin-right: auto;
     margin-left: auto;
     display: block;
+    background-color: #FFFFFF;
 }
