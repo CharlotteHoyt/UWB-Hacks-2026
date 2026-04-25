@@ -19,7 +19,7 @@
 &"portraits": {
 "Res://icon": {
 "export_overrides": {
-"image": "\"res://icon.svg\""
+"image": "\"res://Assets/person2.png\""
 },
 "ignore_char_scale": false,
 "mirror": false,
