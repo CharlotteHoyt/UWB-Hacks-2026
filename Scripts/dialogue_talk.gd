@@ -21,7 +21,8 @@ func _on_button_pressed() -> void:
 
 func _on_dialogic_signal(argument:String):
 	if argument == "Finished":
-		%RestartButton.visible = true;
+		get_tree().change_scene_to_file("res://Scenes/launch.tscn")
+		#%RestartButton.visible = true;
 
 
 func _on_restart_button_pressed() -> void:
