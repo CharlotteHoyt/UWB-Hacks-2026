@@ -1,5 +1,6 @@
+join Person1 center
 [voice volume="0.0"]
-Person1: What
+You: What should I ask them?
 - What is the best ice cream flavor?
 	[voice path="res://Assets/Audio/Person1/person1[1].mp3" volume="0.0"]
 	Person1: Strawberry! Specifically from this one ice cream shop at the beach.
@@ -18,9 +19,9 @@ Person1: What
 	jump 
 - Finish Interrogation
 [voice volume="0.0"]
-You: Will you admit this candidate onto the spaceship?
+Narrator: Will you admit this candidate onto the spaceship?
 - Yes
-	set {Humans} += 1.0
+	set {Amt_Correct} += 1.0
 - No
 leave Person1
 You: Next in line.

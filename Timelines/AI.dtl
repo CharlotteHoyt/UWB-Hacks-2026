@@ -1,6 +1,6 @@
 join AI1 center
 [voice volume="0.0"]
-AI1: What should I ask them?
+You: What should I ask them?
 - Are you a traveler or a homebody?
 	[voice path="res://Assets/Audio/AI/AI1[1].mp3" volume="0.0"]
 	AI1: I know everything I need by staying in place. I have traveled the world without moving an inch. \
@@ -20,7 +20,7 @@ AI1: What should I ask them?
 	AI1: If I am let onto the spaceship, I can fix all of humanity’s problems. If everyone was more like me and looked at everything objectively, we would not have gotten to this point.
 	jump 
 - Finish Interrogation
-You: Will you admit this candidate onto the spaceship?
+Narrator: Will you admit this candidate onto the spaceship?
 - Yes
 	set {AIs} += 1.0
 - No
