@@ -1,6 +1,6 @@
 join Person2 center
 [voice volume="0.0"]
-You: What should I ask them?
+Characters/You: What should I ask them?
 - What fruit or vegetable would you most want to be?
 	[voice path="res://Assets/Audio/Person2/person2[1].mp3" volume="0.0"]
 	Person2: A pumpkin is the obvious choice. I’m not sure why, but they seem very robust. And orange!
@@ -24,5 +24,5 @@ Narrator: Will you admit this candidate onto the spaceship?
 	set {Humans} += 1.0
 - No
 leave Person2
-You: Next in line.
+Characters/You: Next in line.
 jump LastHuman/

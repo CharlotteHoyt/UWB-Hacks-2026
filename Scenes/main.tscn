@@ -1,9 +1,10 @@
 [gd_scene format=3 uid="uid://7jtni5g7binv"]
 
 [ext_resource type="PackedScene" uid="uid://cbey6a6w05rhr" path="res://Scenes/person.tscn" id="1_bo1nx"]
-[ext_resource type="Script" path="res://Scripts/main.gd" id="1_jjvhh"]
+[ext_resource type="Script" uid="uid://jsaxy7kk3a5r" path="res://Scripts/main.gd" id="1_jjvhh"]
 [ext_resource type="Resource" uid="uid://eyii8bc0xplh" path="res://Timelines/Beginning.dtl" id="2_bo1nx"]
 [ext_resource type="Texture2D" uid="uid://r1rc1ujfe0l8" path="res://Assets/desertBackground2.png" id="4_kry3j"]
+[ext_resource type="FontFile" uid="uid://c2l4ght3f0nlu" path="res://Assets/Fonts/Jersey10-Regular.ttf" id="5_21xkr"]
 [ext_resource type="Texture2D" uid="uid://dg0cvjok3hdxu" path="res://Assets/rocketspritesheet.png" id="5_kry3j"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_21xkr"]
@@ -87,6 +88,8 @@ offset_right = 82.5
 offset_bottom = 27.75
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_21xkr")
+theme_override_font_sizes/font_size = 40
 text = "Play"
 
 [node name="Title" type="Label" parent="MainMenu" unique_id=1014571939]
@@ -103,7 +106,8 @@ offset_bottom = -55.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 50
+theme_override_fonts/font = ExtResource("5_21xkr")
+theme_override_font_sizes/font_size = 80
 text = "I'm a Human Too"
 horizontal_alignment = 1
 
@@ -122,6 +126,8 @@ offset_right = 82.5
 offset_bottom = 27.75
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_fonts/font = ExtResource("5_21xkr")
+theme_override_font_sizes/font_size = 40
 text = "Restart"
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1808128791]

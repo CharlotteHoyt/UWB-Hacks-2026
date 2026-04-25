@@ -27,18 +27,30 @@ scene = ExtResource("4_f8oqf")
 script = ExtResource("2_njxxt")
 scene = ExtResource("5_jmhns")
 overrides = {
-"box_size": "Vector2(800, 200)"
+"box_size": "Vector2(800, 200)",
+"custom_normal_font": "\"res://Assets/Fonts/Jersey10-Regular.ttf\"",
+"name_label_custom_size": "25.0",
+"name_label_customfont": "\"res://Assets/Fonts/Jersey10-Regular.ttf\"",
+"name_label_use_global_size": "false",
+"text_custom_size": "22.0",
+"text_use_global_size": "false"
 }
 
 [sub_resource type="Resource" id="Resource_3amxx"]
 script = ExtResource("2_njxxt")
 scene = ExtResource("6_dny7u")
+overrides = {
+"font_custom": "\"res://Assets/Fonts/Jersey10-Regular.ttf\"",
+"font_title_size": "20.0"
+}
 
 [sub_resource type="Resource" id="Resource_pgoho"]
 script = ExtResource("2_njxxt")
 scene = ExtResource("7_v3m5s")
 overrides = {
-"boxes_offset": "Vector2(0, -55)"
+"boxes_offset": "Vector2(0, -55)",
+"font_custom": "\"res://Assets/Fonts/Jersey10-Regular.ttf\"",
+"font_size_custom": "20.0"
 }
 
 [sub_resource type="Resource" id="Resource_4whkw"]
@@ -48,6 +60,12 @@ scene = ExtResource("8_jkx2m")
 [sub_resource type="Resource" id="Resource_0pdnr"]
 script = ExtResource("2_njxxt")
 scene = ExtResource("9_v1q42")
+overrides = {
+"font_custom_normal": "\"res://Assets/Fonts/Jersey10-Regular.ttf\"",
+"font_custom_size": "25.0",
+"font_use_global_fonts": "false",
+"font_use_global_size": "false"
+}
 
 [resource]
 script = ExtResource("10_p2mgm")
@@ -63,4 +81,4 @@ layer_info = {
 "15": SubResource("Resource_4whkw"),
 "16": SubResource("Resource_0pdnr")
 }
-metadata/_latest_layer = "14"
+metadata/_latest_layer = "12"
