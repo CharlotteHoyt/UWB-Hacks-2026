@@ -25,7 +25,10 @@ Dialogic="*uid://ds2q0uclmolvu"
 directories/dch_directory={
 "AI1": "res://Characters/AI1.dch",
 "LastPerson": "res://Characters/LastPerson.dch",
-"Person1": "res://Characters/Person1.dch"
+"Narrator": "res://Assets/Narrator.dch",
+"Person1": "res://Characters/Person1.dch",
+"Person2": "res://Characters/Person2.dch",
+"Person3": "res://Characters/Person3.dch"
 }
 directories/dtl_directory={
 "AI": "res://Timelines/AI.dtl",
