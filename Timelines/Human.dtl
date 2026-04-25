@@ -1,6 +1,6 @@
 join Person1 center
-Person1: Hello
-- Question1
+Person1: Next in line.
+- What is the best ice cream flavor?
 	Person1: Answer1
 - Question2
 	Person1: Answer2
