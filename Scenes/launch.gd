@@ -16,7 +16,7 @@ func _ready() -> void:
 	var distance_delta = 80
 	for i in range(9):
 		distance_delta += 50
-		$AnimatedSprite2D.position.y -= 80
+		$AnimatedSprite2D.position.y -= 100
 		time_delta -= 0.1
 		await get_tree().create_timer(time_delta).timeout
 		
