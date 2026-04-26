@@ -50,13 +50,23 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Launch" type="Node2D" unique_id=149208211]
+[node name="Launch" type="Control" unique_id=1130487880]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("1_y0xra")
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=781507124]
 texture_filter = 1
-offset_right = 1152.0
-offset_bottom = 648.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = ExtResource("2_ctbe1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1211560800]
@@ -69,6 +79,7 @@ animation = &"smoke"
 [node name="RestartButton" type="Button" parent="." unique_id=1847257335]
 unique_name_in_owner = true
 visible = false
+layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
