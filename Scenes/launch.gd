@@ -14,7 +14,7 @@ func _ready() -> void:
 	
 	var time_delta = 1.0
 	var distance_delta = 80
-	for i in range(8):
+	for i in range(9):
 		distance_delta += 50
 		$AnimatedSprite2D.position.y -= 80
 		time_delta -= 0.1
